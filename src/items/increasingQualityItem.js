@@ -20,12 +20,12 @@ export default class IncreasingQualityItem extends Item{
             return this;
         }
 
-        if (this.sellIn <= 5){
+        if (this.sellIn <= 5 && this.expirable){
             this.quality = this.quality + 3 <= 50 ? this.quality + 3 : 50;
             return this;
         }
     
-        if (this.sellIn <= 10) {
+        if (this.sellIn <= 10 && this.expirable) {
             this.quality = this.quality + 2 <= 50 ? this.quality + 2 : 50;
             return this;
         }
