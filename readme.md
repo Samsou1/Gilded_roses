@@ -15,6 +15,7 @@ npm run test
 Or individually:
 ```
 npm run testItem
+npm run testShop
 npm run testLeg
 npm run testDec
 npm run testInc
