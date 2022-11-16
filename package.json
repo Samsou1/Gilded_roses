@@ -4,7 +4,8 @@
   },
   "type":"module",
   "scripts": {
-    "test": "jasmine spec/itemSpec.js",
+    "test": "jasmine spec/itemSpec.js;jasmine spec/itemsSpec/legendaryItemSpec.js;jasmine spec/itemsSpec/decreasingQualityItemSpec.js;jasmine spec/itemsSpec/increasingQualityItemSpec.js;jasmine spec/itemsSpec/conjuredItemSpec.js",
+    "testItem": "jasmine spec/itemSpec.js",
     "testShop": "jasmine spec/shopSpec.js",
     "testLeg": "jasmine spec/itemsSpec/legendaryItemSpec.js",
     "testDec": "jasmine spec/itemsSpec/decreasingQualityItemSpec.js",

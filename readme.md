@@ -6,4 +6,16 @@ npm install jasmine
 
 ## How to run
 
-npm test
+Run all tests at once:
+```
+npm run dev
+```
+
+Or individually:
+```
+npm run testItem
+npm run testLeg
+npm run testDec
+npm run testInc
+npm run testCon
+```
