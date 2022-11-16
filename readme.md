@@ -2,13 +2,14 @@
 
 ## How this folder was created
 
+```
 npm install jasmine
-
+```
 ## How to run
 
 Run all tests at once:
 ```
-npm run dev
+npm run test
 ```
 
 Or individually:

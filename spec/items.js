@@ -4,7 +4,7 @@ import IncreasingQualityItem from "../src/items/increasingQualityItem.js";
 import LegendaryItem from "../src/items/legendaryItem.js";
 
 export const items = [
-    new DecreasingQualityItem('Yellow vest',10,30),
+    new DecreasingQualityItem('Yellow vest', 10, 30),
     new DecreasingQualityItem('Brown pants', -5, 10),
     new DecreasingQualityItem('Purple hat', 5, 10),
 
